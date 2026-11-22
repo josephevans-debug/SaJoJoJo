@@ -1,4 +1,5 @@
 import React from 'react';
+import './/css/Index.css'
 import { createRoot } from 'react-dom/client';
 import App from './App';
 

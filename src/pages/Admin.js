@@ -1,5 +1,5 @@
 import React from 'react';
-import { AppBar, Toolbar, Typography, Drawer, List, ListItem, ListItemText } from '@material-ui/core';
+import { AppBar, Toolbar, Typography, Drawer, List, ListItemButton, ListItemText } from '@mui/material';
 
 function AdminTemplate() {
     return (
@@ -13,15 +13,15 @@ function AdminTemplate() {
             </AppBar>
             <Drawer variant="permanent">
                 <List>
-                    <ListItem button>
+                    <ListItemButton>
                         <ListItemText primary="Categories" />
-                    </ListItem>
-                    <ListItem button>
+                    </ListItemButton>
+                    <ListItemButton>
                         <ListItemText primary="Threads" />
-                    </ListItem>
-                    <ListItem button>
+                    </ListItemButton>
+                    <ListItemButton>
                         <ListItemText primary="Users" />
-                    </ListItem>
+                    </ListItemButton>
                 </List>
             </Drawer>
             <main>

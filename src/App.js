@@ -2,7 +2,6 @@ import './/css/App.css'
 import React from 'react';
 import Button from '@mui/material/Button';
 import Postcard from './components/Forum_components/Postcard.jsx'
-import PostCard from './components/Forum_components/Postcard.jsx';
 import Header from './components/Forum_components/Header.jsx';
 
 function App() {

@@ -1,0 +1,34 @@
+.Border {
+    background-color: #344955;
+    color: white;
+    border: 2px solid #232F32;
+    border-radius: 8px;
+    margin: 16px auto;
+    max-width: 600px;
+    padding: 12px 16px;
+    box-sizing: border-box;
+}
+
+.Textbox {
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+}
+
+.Uibar {
+    display: flex;
+    gap: 8px;
+    margin-top: 12px;
+}
+
+.Uibar button {
+    background-color: #232F34;
+    color: white;
+    border: none;
+    border-radius: 999px;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.Uibar button:hover {
+    background-color: #4a6572;
+}

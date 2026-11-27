@@ -1,0 +1,63 @@
+.Header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    background-color: #344955;
+    color: white;
+    border-bottom: 2px solid #232F32;
+    height: 57px;
+    padding: 0 16px;
+    box-sizing: border-box;
+}
+
+.Headerleft,
+.Headerright {
+    display: flex;
+    flex: 1 0 200px;
+    gap: 8px;
+}
+
+.Headerright {
+    justify-content: flex-end;
+}
+
+.Searchbar {
+    flex: 0 1 600px;
+    min-width: 0;
+    background-color: #232F34;
+    color: white;
+    border: none;
+    border-radius: 999px;
+    height: 44px;
+    padding: 0 16px;
+    box-sizing: border-box;
+}
+
+.Searchbar::placeholder {
+    color: #b0bec5;
+}
+
+.Header button {
+    background-color: #232F34;
+    color: white;
+    border: none;
+    border-radius: 999px;
+    height: 44px;
+    padding: 0 16px;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.Header .Profilebtn {
+    width: 44px;
+    padding: 0;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+
+.Header button:hover {
+    background-color: #4a6572;
+}

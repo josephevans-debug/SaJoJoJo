@@ -17,7 +17,7 @@ function App() {
 
             </Button>
         </div>
-        <PostCard />
+        <Postcard />
         </>
     );
 

@@ -4,8 +4,8 @@ function PostCard({ title, text }) {
     return(
         <div className="Border">
             <div className="Textbox">
-                {title}
-                {text}
+                <h3>{title}</h3>
+                <p>{text}</p>
             </div>
             <div className='Uibar'>
                 <button className='Likebtn'>Like</button>

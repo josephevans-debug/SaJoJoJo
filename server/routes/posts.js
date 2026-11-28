@@ -1,13 +1,12 @@
 import { Router } from 'express';
 import { Post, User } from '../db.js';
-import { requireAuth } from '../middleware/auth.js';
 
 const router = Router();
 
 const author = { model: User, as: "author", attributes: ["username"] };
 
 router.get("/posts", async (req, res) => {
-    const posts = await Post.findAndCountAll({
+    const posts = await Post.findAll({
         include: author,
         order: [["createdAt", "DESC"]],
     });

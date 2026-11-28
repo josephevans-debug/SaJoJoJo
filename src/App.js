@@ -1,8 +1,8 @@
 import './/css/App.css'
-import React from 'react';
 import Button from '@mui/material/Button';
-import Postcard from './components/Forum_components/Postcard.jsx'
 import Header from './components/Forum_components/Header.jsx';
+import Homefeed from './components/Forum_components/Homefeed.jsx';
+
 
 function App() {
 
@@ -17,7 +17,7 @@ function App() {
 
             </Button>
         </div>
-        <Postcard />
+        <Homefeed />
         </>
     );
 

@@ -1,4 +1,8 @@
 import express from 'express';
+import 'dotenv/config';
+import bcrypt from 'bcrypt';
+import jwt from 'jsonwebtoken';
+import cookieParser from 'cookie-parser';
 
 const app = express();
 const PORT = 5000;

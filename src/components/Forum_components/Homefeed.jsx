@@ -25,7 +25,7 @@ function Homefeed() {
     return (
         <div>
             {posts.map(p => (
-                <PostCard key={p.id} title={p.title} text={p.body} />
+                <PostCard key={p.id} id={p.id} title={p.title} text={p.body} preview />
             ))}
         </div>
     );

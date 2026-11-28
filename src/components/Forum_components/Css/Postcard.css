@@ -32,3 +32,19 @@
 .Uibar button:hover {
     background-color: #4a6572;
 }
+
+.Clickable {
+    cursor: pointer;
+}
+
+.Clickable:hover {
+    border-color: #4a6572;
+}
+
+.Preview {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    overflow: hidden;
+}
